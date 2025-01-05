@@ -23,7 +23,7 @@ export const portfolioItems: PortfolioItem[] = [
       {
         title: "AI Solutionist's Website",
         description: "Luigi Moca's portfolio with about & provided services",
-        imageUrl: "/LM Logo.png"
+        imageUrl: "https://static.wixstatic.com/media/e4a203_378475ee1142410fb3a56ba73d39db72~mv2.png"
       },
       {
         title: "Cumberland Roots Coffee",
