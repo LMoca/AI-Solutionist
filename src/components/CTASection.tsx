@@ -16,7 +16,7 @@ export default function CTASection() {
   }, []);
 
   return (
-    <Section id="contact" title="Ready to Upgrade your Business?">
+    <Section id="contact" title="Ready to Upgrade Your Business?">
       <div className="max-w-4xl mx-auto text-center">
         <motion.div
           variants={fadeInUpVariant}

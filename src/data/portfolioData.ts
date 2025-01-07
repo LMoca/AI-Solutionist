@@ -18,7 +18,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     icon: 'Globe',
     title: "Website Design",
-    description: "Create elegant, sleek website design with seamless user experience",
+    description: "Create customized, elegant, sleek website design with seamless user experience",
     projects: [
       {
         title: "AI Solutionist's Website",
