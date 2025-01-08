@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className="flex items-center h-16">
           {/* Logo Section - Left */}
           <div className="flex-shrink-0 flex items-center space-x-3">
-            <img src="https://static.wixstatic.com/media/e4a203_378475ee1142410fb3a56ba73d39db72~mv2.png" alt="LM Logo" className="h-8 w-8" />
+            <img src="https://static.wixstatic.com/media/e4a203_3052eb7efe304a5e97771e473a7c9a1b~mv2.png" alt="LM Logo" className="h-8 w-8" />
             <div className="bg-clip-text font-bold text-xl text-[#00ffff] drop-shadow-[0_0_10px_rgba(53,71,255,0.8)] [text-shadow:_0_0_5px_rgb(53_71_255_/_60%)]">
               AI SOLUTIONIST
             </div>

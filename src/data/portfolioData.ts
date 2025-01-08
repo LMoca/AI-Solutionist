@@ -31,18 +31,18 @@ export const portfolioItems: PortfolioItem[] = [
         imageUrl: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&q=80",
         link: "https://benevolent-bienenstitch-510b71.netlify.app/"
       },
-      /*{
+      {
         title: "Rebecca's Bakery",
         description: "Local, bakery restaurant",
-        imageUrl: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&q=80",
+        imageUrl: "https://static.wixstatic.com/media/e4a203_ca8794669bed4c4ba0939869a8c13646~mv2.png",
         link: "https://joyful-sherbet-5237d6.netlify.app/"
-      },*/
-      {
+      },
+      /*{
         title: "EJ's Health Clinic",
         description: "A local health clinic startup",
         imageUrl: "https://media.istockphoto.com/photos/outpatient-surgery-center-picture-id181553727?k=6&m=181553727&s=612x612&w=0&h=Bd39bHji-railfqOaxA2CsO-sP6jIiibCoQe8RTzuX4=",
         link: "https://lustrous-marshmallow-fca067.netlify.app"
-      },
+      },*/
       {
         title: "Space Explorer",
         description: "A space exploration agency",

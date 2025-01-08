@@ -18,13 +18,13 @@ export default function CTASection() {
   return (
     <Section id="contact" title="Ready to Upgrade Your Business?">
       <div className="max-w-4xl mx-auto text-center">
+        <p className="text-cyan-400 text-xl md:text-2xl mb-12">
+          Schedule a meeting to discuss how AI can solve your business needs
+        </p>
         <motion.div
           variants={fadeInUpVariant}
           className="backdrop-blur-sm rounded-lg p-8 md:p-12"
         >
-          <p className="text-cyan-200 mb-8 text-lg">
-            Schedule a meeting to discuss your business needs in creating a stunning website or implementing AI solutions.
-          </p>
           <div 
             className="calendly-inline-widget" 
             data-url="https://calendly.com/mocaluigi/30min"

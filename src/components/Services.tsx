@@ -1,8 +1,8 @@
-import { MessageSquare } from 'lucide-react';
 import Section from './Section';
 import ServiceCard from './ServiceCard';
 import WebsiteScroll from './WebsiteScroll';
 import ChatbotIcon from './ChatbotIcon';
+import AutomationIcon from './AutomationIcon';
 import { portfolioItems } from '../data/portfolioData';
 
 const services = [
@@ -21,10 +21,10 @@ const services = [
     projects: portfolioItems[1].projects
   },
   {
-    icon: <MessageSquare className="text-cyan-400" size={32} />,
+    icon: <AutomationIcon />,
     title: "Business Workflow Automation",
     description: "AI Automated systems handling business tasks",
-    features: ["24/7 Customer Support", "Lead Generation", "Product Recommendations", "Ticket / Issue Submission", "Automated Responses"],
+    features: ["24/7 Customer Support", "Lead Generation", "Restaurant Reservations", "Product Recommendations", "Ticket / Issue Submission", "Automated Responses"],
     projects: portfolioItems[2].projects
   }
 ];

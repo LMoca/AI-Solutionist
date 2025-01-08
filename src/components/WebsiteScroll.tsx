@@ -1,11 +1,10 @@
 import { useEffect, useRef } from 'react';
 
 const websites = [
-  "https://images.unsplash.com/photo-1557683311-eac922347aa1?w=800&q=80",
-  "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=800&q=80",
-  "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-  "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=800&q=80",
-  "https://images.unsplash.com/photo-1517292987719-0369a794ec0f?w=800&q=80"
+  "https://static.wixstatic.com/media/e4a203_2a545f22ca4142d1b3cf04e0ceda79d9~mv2.png",
+  "https://static.wixstatic.com/media/e4a203_c0e77d6029bd48d791018d576063bdbf~mv2.png",
+  "https://static.wixstatic.com/media/e4a203_662e478746e14e77a6f9cf02ad8164dd~mv2.png",
+  "https://static.wixstatic.com/media/e4a203_ca8794669bed4c4ba0939869a8c13646~mv2.png"
 ];
 
 export default function WebsiteScroll() {

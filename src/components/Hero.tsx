@@ -16,7 +16,7 @@ export default function Hero() {
           }`}
         >
           <img 
-            src="https://static.wixstatic.com/media/e4a203_378475ee1142410fb3a56ba73d39db72~mv2.png" 
+            src="https://static.wixstatic.com/media/e4a203_3052eb7efe304a5e97771e473a7c9a1b~mv2.png" 
             alt="LM Logo" 
             className="w-32 h-32 mx-auto mix-blend-screen"
           />
