@@ -32,6 +32,12 @@ export const portfolioItems: PortfolioItem[] = [
         link: "https://benevolent-bienenstitch-510b71.netlify.app/"
       },
       {
+        title: "RJ's Beginner Crypto Services 101",
+        description: "A service by RJ to teach newcomers about the crypto space",
+        imageUrl: "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/473079271_3932064817071165_4944420438080042017_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=a6CVz0pXjsYQ7kNvgFJLl_B&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=Ax-aeXYpC9fEI7KrHPhYF5j&oh=00_AYD0_xdXbxh3W6rqkgfPzT7xSlPvJMKXsh6WN34llbQgqA&oe=678BE6FD",
+        link: "https://reliable-brioche-4dced6.netlify.app/"
+      },
+      {
         title: "Rebecca's Bakery",
         description: "Local, bakery restaurant",
         imageUrl: "https://static.wixstatic.com/media/e4a203_ca8794669bed4c4ba0939869a8c13646~mv2.png",
@@ -53,9 +59,14 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     icon: 'MessageSquare',
-    title: "Website Chatbots",
+    title: "AI Chatbot Agents",
     description: "AI conversational chatbot agents",
     projects: [
+      {
+        title: "AI Solutionist Chatbot",
+        description: "24/7 chatbot assistant, made for AI Solutionist",
+        imageUrl: "https://static.wixstatic.com/media/e4a203_378475ee1142410fb3a56ba73d39db72~mv2.png",
+      },
       {
         title: "Giuseppe FAQ Bot",
         description: "24/7 chatbot assistant for basic customer FAQ",
@@ -75,12 +86,12 @@ export const portfolioItems: PortfolioItem[] = [
     title: "Business Workflow Automation",
     description: "AI-powered systems to automate your daily tasks",
     projects: [
-      {
+      /*{
         title: "European & Foreign Motor Works",
         description: "24/7 chatbot assistant for basic customer FAQ",
         imageUrl: "https://static.wixstatic.com/media/559bd5_803711cd15bf4e5dbc5424a859018e6e~mv2.png",
         link: "https://www.europeanforeignmotorworks.com/"
-      }
+      }*/
     ]
   }
 ];

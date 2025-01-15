@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import About from './components/About';
 import FAQSection from './components/FAQ/FAQSection';
+import Testimonials from './components/Testimonials';
 import CTASection from './components/CTASection';
 import Footer from './components/footer/Footer';
 import ParticleCanvas from './components/ParticleBackground/ParticleCanvas';
@@ -20,6 +21,7 @@ function App() {
           <Hero />
           <About />
           <Services />
+          <Testimonials />
           <FAQSection />
           <CTASection />
         </main>

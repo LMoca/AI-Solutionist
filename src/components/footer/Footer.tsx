@@ -22,8 +22,8 @@ export default function Footer() {
           <FooterSection title="Services">
             <div className="space-y-2">
               <FooterLink href="#services">Website Creation</FooterLink>
-              <FooterLink href="#services">Website Chatbots</FooterLink>
-              <FooterLink href="#services">Business Automation</FooterLink>
+              <FooterLink href="#services">AI Chatbot Agents</FooterLink>
+              <FooterLink href="#services">AI Workflow Automation</FooterLink>
             </div>
           </FooterSection>
 

@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { motion } from 'framer-motion';
 
 const websites = [
   "https://static.wixstatic.com/media/e4a203_2a545f22ca4142d1b3cf04e0ceda79d9~mv2.png",
@@ -28,29 +29,39 @@ export default function WebsiteScroll() {
 
   if (prefersReducedMotion) {
     return (
-      <div className="w-full h-48 md:h-64 bg-gray-800 rounded-lg overflow-hidden">
-        <img 
-          src={websites[0]} 
-          alt="Website Preview" 
-          className="w-full h-full object-cover"
-        />
+      <div className="w-full h-72 rounded-lg overflow-hidden">
+        <motion.div
+          className="relative w-full h-full"
+          animate={{ boxShadow: ['0 0 20px #22d3ee', '0 0 40px #22d3ee', '0 0 20px #22d3ee'] }}
+          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <img 
+            src={websites[0]} 
+            alt="Website Preview" 
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-cyan-400/10 backdrop-blur-sm" />
+        </motion.div>
       </div>
     );
   }
 
   return (
-    <div className="w-full overflow-hidden bg-gray-800/20 rounded-lg">
+    <div className="w-full h-72 overflow-hidden relative">
       <div
         ref={scrollRef}
-        className="flex gap-4 py-4 animate-scroll"
+        className="flex gap-4 py-4 relative z-10 animate-scroll"
         style={{
           width: 'fit-content',
         }}
       >
         {websites.map((url, index) => (
-          <div
+          <motion.div
             key={index}
-            className="website-preview flex-none w-72 h-48 md:h-64 rounded-lg overflow-hidden transform transition-transform hover:scale-105"
+            className="website-preview flex-none w-72 h-56 rounded-lg overflow-hidden relative group"
+            whileHover={{ scale: 1.05 }}
+            animate={{ boxShadow: ['0 0 20px #22d3ee', '0 0 40px #22d3ee', '0 0 20px #22d3ee'] }}
+            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
           >
             <img
               src={url}
@@ -58,7 +69,13 @@ export default function WebsiteScroll() {
               className="w-full h-full object-cover"
               loading="lazy"
             />
-          </div>
+            <motion.div 
+              className="absolute inset-0 bg-cyan-400/10 backdrop-blur-sm"
+              initial={{ opacity: 0 }}
+              whileHover={{ opacity: 1 }}
+              transition={{ duration: 0.3 }}
+            />
+          </motion.div>
         ))}
       </div>
     </div>

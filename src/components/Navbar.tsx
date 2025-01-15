@@ -23,6 +23,7 @@ export default function Navbar() {
               <DesktopNavLink href="#home">Home</DesktopNavLink>
               <DesktopNavLink href="#about">About</DesktopNavLink>
               <DesktopNavLink href="#services">Services</DesktopNavLink>
+              <DesktopNavLink href="#testimonials">Testimonials</DesktopNavLink>
               <DesktopNavLink href="#faq">FAQ</DesktopNavLink>
               <DesktopNavLink href="#contact">Contact</DesktopNavLink>
             </div>

@@ -1,8 +1,8 @@
 import Section from './Section';
 import ServiceCard from './ServiceCard';
 import WebsiteScroll from './WebsiteScroll';
-import ChatbotIcon from './ChatbotIcon';
-import AutomationIcon from './AutomationIcon';
+import NewChatbotIcon from './NewChatbotIcon';
+import WorkflowAnimation from './WorkflowAnimation';
 import { portfolioItems } from '../data/portfolioData';
 
 const services = [
@@ -14,15 +14,15 @@ const services = [
     projects: portfolioItems[0].projects
   },
   {
-    icon: <ChatbotIcon />,
-    title: "AI Chatbots",
+    icon: <NewChatbotIcon />,
+    title: "AI Chatbot Agents",
     description: "AI-powered chatbots that enhance customer engagement and support",
     features: ["24/7 Customer Support", "Automatic Appointment Setups", "Product Recommendations", "Ticket / Issue Submission", "Automated Responses"],
     projects: portfolioItems[1].projects
   },
   {
-    icon: <AutomationIcon />,
-    title: "Business Workflow Automation",
+    icon: <WorkflowAnimation />,
+    title: "AI Workflow Automation",
     description: "AI Automated systems handling business tasks",
     features: ["24/7 Customer Support", "Lead Generation", "Restaurant Reservations", "Product Recommendations", "Ticket / Issue Submission", "Automated Responses"],
     projects: portfolioItems[2].projects
