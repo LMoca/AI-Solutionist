@@ -43,12 +43,6 @@ export const portfolioItems: PortfolioItem[] = [
         imageUrl: "https://static.wixstatic.com/media/e4a203_ca8794669bed4c4ba0939869a8c13646~mv2.png",
         link: "https://joyful-sherbet-5237d6.netlify.app/"
       },
-      /*{
-        title: "EJ's Health Clinic",
-        description: "A local health clinic startup",
-        imageUrl: "https://media.istockphoto.com/photos/outpatient-surgery-center-picture-id181553727?k=6&m=181553727&s=612x612&w=0&h=Bd39bHji-railfqOaxA2CsO-sP6jIiibCoQe8RTzuX4=",
-        link: "https://lustrous-marshmallow-fca067.netlify.app"
-      },*/
       {
         title: "Space Explorer",
         description: "A space exploration agency",
@@ -85,13 +79,23 @@ export const portfolioItems: PortfolioItem[] = [
     icon: 'MessageSquare',
     title: "Business Workflow Automation",
     description: "AI-powered systems to automate your daily tasks",
+    projects: []
+  },
+  {
+    icon: 'MessageSquare',
+    title: "AI Phone Calls",
+    description: "Intelligent voice assistants handling your business calls 24/7",
     projects: [
-      /*{
-        title: "European & Foreign Motor Works",
-        description: "24/7 chatbot assistant for basic customer FAQ",
-        imageUrl: "https://static.wixstatic.com/media/559bd5_803711cd15bf4e5dbc5424a859018e6e~mv2.png",
-        link: "https://www.europeanforeignmotorworks.com/"
-      }*/
+      {
+        title: "Buffalo Wild Wings",
+        description: "AI phone system for handling carryout orders & reservations",
+        imageUrl: "https://th.bing.com/th/id/R.854055676e5ccf3713e636b8974f783c?rik=d9r8Jhbfn8vpig&riu=http%3a%2f%2f1.bp.blogspot.com%2f-_ljGwO_InUo%2fUzwe1DM2xvI%2fAAAAAAAAisg%2fJaWh_L72iHw%2fs1600%2fBuffalo-Wild-Wings-logo.png&ehk=ELM2jFuwCApsNr2Shth1OvK%2bRXLS4bN9zAsdAwyLO4I%3d&risl=&pid=ImgRaw&r=0"
+      },
+      {
+        title: "Papa Johns",
+        description: "Voice assistant for carryout orders",
+        imageUrl: "https://www.bigclassaction.com/images/lawsuit/16997.png"
+      }
     ]
   }
 ];

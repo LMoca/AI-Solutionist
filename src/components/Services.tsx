@@ -3,6 +3,7 @@ import ServiceCard from './ServiceCard';
 import WebsiteScroll from './WebsiteScroll';
 import NewChatbotIcon from './NewChatbotIcon';
 import WorkflowAnimation from './WorkflowAnimation';
+import PhoneAnimation from './PhoneAnimation';
 import { portfolioItems } from '../data/portfolioData';
 
 const services = [
@@ -21,6 +22,13 @@ const services = [
     projects: portfolioItems[1].projects
   },
   {
+    icon: <PhoneAnimation />,
+    title: "AI Phone Calls",
+    description: "AI phone assistants that streamline customer interactions & provide instant support",
+    features: ["24/7 Call Handling", "Appointment Scheduling", "Customer Support", "Lead Qualification"],
+    projects: portfolioItems[3].projects
+  },
+  {
     icon: <WorkflowAnimation />,
     title: "AI Workflow Automation",
     description: "AI Automated systems handling business tasks",
@@ -33,7 +41,7 @@ export default function Services() {
   return (
     <Section id="services" title="Services">
       <div className="flex justify-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl">
           {services.map((service, index) => (
             <ServiceCard key={index} {...service} />
           ))}
