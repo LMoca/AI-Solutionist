@@ -34,7 +34,7 @@ export const portfolioItems: PortfolioItem[] = [
       {
         title: "RJ's Beginner Crypto Services 101",
         description: "A service by RJ to teach newcomers about the crypto space",
-        imageUrl: "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/473079271_3932064817071165_4944420438080042017_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=a6CVz0pXjsYQ7kNvgFJLl_B&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=Ax-aeXYpC9fEI7KrHPhYF5j&oh=00_AYD0_xdXbxh3W6rqkgfPzT7xSlPvJMKXsh6WN34llbQgqA&oe=678BE6FD",
+        imageUrl: "https://p16-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/125a6d08d8b3006a3cbd9eaaa498c1c6~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=50795&refresh_token=1b2bdf00693a29ca24251cf4291d1416&x-expires=1737615600&x-signature=a8xfv0jHHo2pFWuhiBEUDmF8tLQ%3D&shp=a5d48078&shcp=81f88b70",
         link: "https://reliable-brioche-4dced6.netlify.app/"
       },
       {
@@ -42,13 +42,13 @@ export const portfolioItems: PortfolioItem[] = [
         description: "Local, bakery restaurant",
         imageUrl: "https://static.wixstatic.com/media/e4a203_ca8794669bed4c4ba0939869a8c13646~mv2.png",
         link: "https://joyful-sherbet-5237d6.netlify.app/"
-      },
-      {
+      }
+      /*{
         title: "Space Explorer",
         description: "A space exploration agency",
         imageUrl: "https://static.wixstatic.com/media/e4a203_182b2cd8055e4abd9a654d4201fb5e5f~mv2.png",
         link: "https://luxury-malabi-cb24d8.netlify.app/"
-      }
+      }*/
     ]
   },
   {
