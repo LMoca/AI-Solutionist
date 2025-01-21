@@ -21,7 +21,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Create customized, elegant, sleek website design with seamless user experience",
     projects: [
       {
-        title: "AI Solutionist's Website",
+        title: "AI Solutionist",
         description: "Luigi Moca's portfolio with about & provided services",
         imageUrl: "https://static.wixstatic.com/media/e4a203_378475ee1142410fb3a56ba73d39db72~mv2.png"
       },

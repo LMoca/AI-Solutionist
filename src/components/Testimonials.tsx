@@ -17,15 +17,20 @@ const testimonials: Testimonial[] = [
     author: "RJ",
     role: "Founder, RJ's Beginner Crypto Services 101",
     projectURL: "https://reliable-brioche-4dced6.netlify.app/",
-    image: "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/473079271_3932064817071165_4944420438080042017_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=a6CVz0pXjsYQ7kNvgFJLl_B&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=Ax-aeXYpC9fEI7KrHPhYF5j&oh=00_AYD0_xdXbxh3W6rqkgfPzT7xSlPvJMKXsh6WN34llbQgqA&oe=678BE6FD"
+    image: "https://p16-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/125a6d08d8b3006a3cbd9eaaa498c1c6~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=50795&refresh_token=1b2bdf00693a29ca24251cf4291d1416&x-expires=1737615600&x-signature=a8xfv0jHHo2pFWuhiBEUDmF8tLQ%3D&shp=a5d48078&shcp=81f88b70"
+  },
+  {
+    content: "The website Luigi made for me looks beautiful! He's made a high-quality site that fits exactly what I wanted my site to look like! He also went above & implemented an AI system in place for me to help automate my workflow when I'm not around! That's efficiency right there! Thank you, Luigi!",
+    author: "Stan Hill",
+    role: "Founder, Hill Family Insurance"
   }
 ];
 
 export default function Testimonials() {
   return (
     <Section id="testimonials" title="Client Testimonials">
-      <div className="max-w-6xl mx-auto">
-        <div className="grid gap-8">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={index}
@@ -33,18 +38,30 @@ export default function Testimonials() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              className="relative bg-gray-800/10 backdrop-blur-sm rounded-2xl p-8 md:p-12 hover:scale-[1.02] transition-transform duration-300"
+              className="group relative bg-gray-800/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 hover:scale-[1.02] transition-all duration-300"
             >
+              {/* Background grid effect */}
+              <div className="absolute inset-0 opacity-10">
+                <div className="grid grid-cols-8 grid-rows-8 h-full">
+                  {Array.from({ length: 64 }).map((_, i) => (
+                    <div key={i} className="border border-cyan-400/20" />
+                  ))}
+                </div>
+              </div>
+
+              {/* Glow overlay */}
+              <div className="absolute inset-0 bg-cyan-400 rounded-2xl blur-xl opacity-10 group-hover:opacity-20 transition-opacity duration-300" />
+              
               <div className="absolute -top-4 -left-4 z-10">
                 <div className="p-3 bg-cyan-500/10 backdrop-blur-sm rounded-full">
                   <Quote className="w-6 h-6 text-cyan-400" />
                 </div>
               </div>
               
-              <div className="flex flex-col md:flex-row gap-8">
+              <div className="relative z-10 flex flex-col md:flex-row gap-6">
                 {testimonial.image && (
                   <div className="flex-shrink-0">
-                    <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden border-2 border-cyan-400/20">
+                    <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden border-2 border-cyan-400/20">
                       <img 
                         src={testimonial.image} 
                         alt={testimonial.author}
@@ -55,13 +72,13 @@ export default function Testimonials() {
                 )}
                 
                 <div className="flex-grow">
-                  <p className="text-cyan-200 text-lg leading-relaxed mb-6">
+                  <p className="text-cyan-200 text-sm leading-relaxed mb-4">
                     {testimonial.content}
                   </p>
                   
                   <div className="flex items-center gap-4">
                     <div>
-                      <p className="font-semibold text-xl text-cyan-400">
+                      <p className="font-semibold text-lg text-cyan-400">
                         {testimonial.author}
                       </p>
                       <p className="text-cyan-200 text-sm mt-1">

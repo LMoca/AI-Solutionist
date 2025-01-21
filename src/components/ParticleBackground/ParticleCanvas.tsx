@@ -17,7 +17,7 @@ export default function ParticleCanvas() {
     const resizeCanvas = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
-      particlesRef.current = initParticles(canvas, 100);
+      particlesRef.current = initParticles(canvas, 200);
     };
 
     const animate = () => {

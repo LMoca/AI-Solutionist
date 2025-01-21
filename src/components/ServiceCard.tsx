@@ -19,7 +19,7 @@ export default function ServiceCard({ icon, title, description, features, projec
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <div className="group relative bg-gray-800/10 rounded-lg backdrop-blur-sm p-6 hover:scale-105 transition-transform duration-300 overflow-hidden">
+    <div className="group relative bg-gray-800/10 rounded-lg backdrop-blur-sm p-6 hover:scale-105 transition-all duration-300 overflow-hidden">
       {/* Background grid effect */}
       <div className="absolute inset-0 opacity-10">
         <div className="grid grid-cols-8 grid-rows-8 h-full">
@@ -30,7 +30,7 @@ export default function ServiceCard({ icon, title, description, features, projec
       </div>
 
       {/* Glow overlay */}
-      <div className="absolute inset-0 bg-cyan-400 rounded-lg blur-xl opacity-10" />
+      <div className="absolute inset-0 bg-cyan-400 rounded-lg blur-xl opacity-10 group-hover:opacity-20 transition-opacity duration-300" />
 
       {/* Content */}
       <div className="relative z-10">
