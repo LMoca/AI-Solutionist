@@ -67,12 +67,12 @@ export const portfolioItems: PortfolioItem[] = [
         imageUrl: "https://static.wixstatic.com/media/559bd5_803711cd15bf4e5dbc5424a859018e6e~mv2.png",
         link: "https://www.europeanforeignmotorworks.com/"
       },
-      {
+      /*{
         title: "Physical Needs Bot",
         description: "24/7 chatbot assistant for basic customer FAQ",
         imageUrl: "https://whizardapi.com/wp-content/uploads/2022/04/download-2.png",
         link: "https://creator.voiceflow.com/prototype/674e720b2e9e997326daa67a"
-      }
+      }*/
     ]
   },
   {
