@@ -19,7 +19,7 @@ export default function CTASection() {
     <Section id="contact" title="Ready to Upgrade Your Business?">
       <div className="max-w-4xl mx-auto text-center">
         <p className="text-cyan-400 text-xl md:text-2xl mb-12">
-          Schedule a meeting to discuss how AI can solve your business needs
+          Schedule a meeting now to solve your business challenges together
         </p>
         <motion.div
           variants={fadeInUpVariant}
