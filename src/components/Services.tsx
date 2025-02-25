@@ -25,7 +25,6 @@ const services = [
       "Healthcare & Telemedicine Apps",
       "Finance & Mobile Banking"
     ],
-    projects: portfolioItems[4].projects
   },
   {
     icon: <PhoneAnimation />,
