@@ -21,8 +21,8 @@ export default function Navbar() {
           <div className="hidden md:flex flex-auto justify-center">
             <div className="space-x-8">
               <DesktopNavLink href="#home">Home</DesktopNavLink>
-              <DesktopNavLink href="#about">About</DesktopNavLink>
               <DesktopNavLink href="#services">Services</DesktopNavLink>
+              <DesktopNavLink href="#process">Process</DesktopNavLink>
               <DesktopNavLink href="#testimonials">Testimonials</DesktopNavLink>
               <DesktopNavLink href="#faq">FAQ</DesktopNavLink>
               <DesktopNavLink href="#contact">Contact</DesktopNavLink>

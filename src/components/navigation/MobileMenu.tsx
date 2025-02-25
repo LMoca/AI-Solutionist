@@ -26,11 +26,12 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             transition={{ delay: 0.1, duration: 0.2 }}
             className="px-2 pt-2 pb-3 space-y-1 sm:px-3"
           >
-            <NavLink href="#home">Home</NavLink>
-            <NavLink href="#about">About</NavLink>
-            <NavLink href="#services">Services</NavLink>
-            <NavLink href="#faq">FAQ</NavLink>
-            <NavLink href="#contact">Contact</NavLink>
+            <NavLink href="#home" onClick={onClose}>Home</NavLink>
+            <NavLink href="#services" onClick={onClose}>Services</NavLink>
+            <NavLink href="#process" onClick={onClose}>Process</NavLink>
+            <NavLink href="#testimonials" onClick={onClose}>Testimonials</NavLink>
+            <NavLink href="#faq" onClick={onClose}>FAQ</NavLink>
+            <NavLink href="#contact" onClick={onClose}>Contact</NavLink>
           </motion.div>
         </motion.div>
       )}

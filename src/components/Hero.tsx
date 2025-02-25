@@ -31,11 +31,11 @@ export default function Hero() {
           </span>
         </h1>
         <p 
-          className={`text-cyan-400 text-xl md:text-2xl mb-12 transition-all duration-1000 delay-300 ${
+          className={`text-cyan-400 text-xl md:text-1xl mb-12 transition-all duration-1000 delay-300 ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          Evolve Your Business with Custom AI Agent Solutions
+          Developing tailored AI automation solutions for your business
         </p>
       </div>
     </section>

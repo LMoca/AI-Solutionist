@@ -17,7 +17,7 @@ const testimonials: Testimonial[] = [
     author: "RJ",
     role: "Founder, RJ's Beginner Crypto Services 101",
     projectURL: "https://reliable-brioche-4dced6.netlify.app/",
-    image: "https://github.com/LMoca/AI-Solutionist/blob/main/Assets/RJCircleLogo.png?raw=true"
+    image: "https://p16-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/125a6d08d8b3006a3cbd9eaaa498c1c6~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=50795&refresh_token=1b2bdf00693a29ca24251cf4291d1416&x-expires=1737615600&x-signature=a8xfv0jHHo2pFWuhiBEUDmF8tLQ%3D&shp=a5d48078&shcp=81f88b70"
   },
   {
     content: "The website Luigi made for me looks beautiful! He's made a high-quality site that fits exactly what I wanted my site to look like! He also went above & implemented an AI system in place for me to help automate my workflow when I'm not around! That's efficiency right there! Thank you, Luigi!",

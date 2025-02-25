@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
-import About from './components/About';
+import Process from './components/Process';
 import FAQSection from './components/FAQ/FAQSection';
 import Testimonials from './components/Testimonials';
 import CTASection from './components/CTASection';
@@ -19,8 +19,8 @@ function App() {
         <Navbar />
         <main>
           <Hero />
-          <About />
           <Services />
+          <Process />
           <Testimonials />
           <FAQSection />
           <CTASection />
@@ -31,4 +31,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
