@@ -17,12 +17,14 @@ const testimonials: Testimonial[] = [
     author: "RJ",
     role: "Founder, RJ's Beginner Crypto Services 101",
     projectURL: "https://reliable-brioche-4dced6.netlify.app/",
-    image: "https://p16-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/125a6d08d8b3006a3cbd9eaaa498c1c6~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=50795&refresh_token=1b2bdf00693a29ca24251cf4291d1416&x-expires=1737615600&x-signature=a8xfv0jHHo2pFWuhiBEUDmF8tLQ%3D&shp=a5d48078&shcp=81f88b70"
+    image: "dist/assets/RJCircleLogo.png"
   },
   {
-    content: "The website Luigi made for me looks beautiful! He's made a high-quality site that fits exactly what I wanted my site to look like! He also went above & implemented an AI system in place for me to help automate my workflow when I'm not around! That's efficiency right there! Thank you, Luigi!",
-    author: "Stan Hill",
-    role: "Founder, Hill Family Insurance"
+    content: "My website was outdated and wasn't getting many leads. Luigi completely revamped my website, making it not only visually appealing but also highly functional. The biggest game-changer was the AI lead capture agent he integrated within 2 hours. After 3 days, we started seeing an increase in customer inquiries! Now, my website with AI integration works for me 24/7, engaging visitors, answering their questions, and turning them into paying clients. Luigi, my business hasn't seen this level of turnover never been more profitable. Thank you!",
+    author: "Giuseppe Moca",
+    role: "Founder, European & Foreign Motor Works",
+    projectURL: "https://www.europeanforeignmotorworks.com/",
+    image: "https://static.wixstatic.com/media/559bd5_803711cd15bf4e5dbc5424a859018e6e~mv2.png"
   }
 ];
 
@@ -38,7 +40,7 @@ export default function Testimonials() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              className="group relative bg-gray-800/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 hover:scale-[1.02] transition-all duration-300"
+              className="group relative bg-gray-800/10 backdrop-blur-sm rounded-2xl p-6 hover:scale-[1.02] transition-all duration-300"
             >
               {/* Background grid effect */}
               <div className="absolute inset-0 opacity-10">
@@ -52,51 +54,52 @@ export default function Testimonials() {
               {/* Glow overlay */}
               <div className="absolute inset-0 bg-cyan-400 rounded-2xl blur-xl opacity-10 group-hover:opacity-20 transition-opacity duration-300" />
               
-              <div className="absolute -top-4 -left-4 z-10">
-                <div className="p-3 bg-cyan-500/10 backdrop-blur-sm rounded-full">
-                  <Quote className="w-6 h-6 text-cyan-400" />
-                </div>
-              </div>
-              
-              <div className="relative z-10 flex flex-col md:flex-row gap-6">
-                {testimonial.image && (
-                  <div className="flex-shrink-0">
-                    <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden border-2 border-cyan-400/20">
-                      <img 
-                        src={testimonial.image} 
-                        alt={testimonial.author}
-                        className="w-full h-full object-cover"
-                      />
+              <div className="relative z-10">
+                {/* Header row with logo, name, and details */}
+                <div className="flex items-center gap-4 mb-4">
+                  {testimonial.image && (
+                    <div className="flex-shrink-0">
+                      <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-cyan-400/20">
+                        <img 
+                          src={testimonial.image} 
+                          alt={testimonial.author}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
                     </div>
-                  </div>
-                )}
-                
-                <div className="flex-grow">
-                  <p className="text-cyan-200 text-sm leading-relaxed mb-4">
-                    {testimonial.content}
-                  </p>
+                  )}
                   
-                  <div className="flex items-center gap-4">
-                    <div>
-                      <p className="font-semibold text-lg text-cyan-400">
-                        {testimonial.author}
-                      </p>
-                      <p className="text-cyan-200 text-sm mt-1">
-                        {testimonial.role}
-                      </p>
-                      {testimonial.projectURL && (
-                        <a
-                          href={testimonial.projectURL}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 text-sm mt-2 transition-colors duration-200"
-                        >
-                          View Project <ExternalLink size={14} />
-                        </a>
-                      )}
-                    </div>
+                  <div className="flex-grow">
+                    <h3 className="font-semibold text-lg text-cyan-400">
+                      {testimonial.author}
+                    </h3>
+                    <p className="text-cyan-200 text-sm">
+                      {testimonial.role}
+                    </p>
+                    {testimonial.projectURL && (
+                      <a
+                        href={testimonial.projectURL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-cyan-400 hover:text-cyan-300 text-sm transition-colors duration-200"
+                      >
+                        View Project <ExternalLink size={12} />
+                      </a>
+                    )}
                   </div>
                 </div>
+
+                {/* Quote icon */}
+                <div className="absolute -top-3 -left-3">
+                  <div className="p-2 bg-cyan-500/10 backdrop-blur-sm rounded-full">
+                    <Quote className="w-4 h-4 text-cyan-400" />
+                  </div>
+                </div>
+
+                {/* Testimonial content */}
+                <p className="text-cyan-200 text-sm leading-relaxed">
+                  {testimonial.content}
+                </p>
               </div>
             </motion.div>
           ))}
