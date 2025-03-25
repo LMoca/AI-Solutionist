@@ -6,7 +6,7 @@ import { staggerChildrenVariant } from '../../utils/animations';
 const faqs = [
   {
     question: "What AI solutions do you offer?",
-    answer: "We provide custom AI chatbots, automated customer service solutions, AI-powered analytics, and intelligent process automation tailored to your business needs."
+    answer: "We provide custom website creation, custom mobile applications, AI chatbots, AI phone services, automated customer service solutions, and intelligent process automation tailored to your business needs."
   },
   {
     question: "How long does it take to implement an AI solution?",
@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     question: "Do you offer ongoing support?",
-    answer: "Yes, we provide comprehensive support and maintenance packages to ensure your AI solutions continue to perform optimally."
+    answer: "Yes, we provide comprehensive support and maintenance packages to ensure our solutions continue to perform optimally."
   },
   {
     question: "Can AI solutions integrate with my existing systems?",
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     question: "What industries do you serve?",
-    answer: "We serve a wide range of industries including e-commerce, healthcare, finance, education, and more. Our solutions are adaptable to any business context."
+    answer: "We serve a wide range of industries including e-commerce, healthcare, finance, real estate, education, and more. Our solutions are adaptable to any business context."
   }
 ];
 

@@ -14,6 +14,9 @@ export default function Footer() {
               Luigi Moca
             </p>
             <p className="text-cyan-200">
+              (317) 712-0452
+            </p>
+            <p className="text-cyan-200">
               mocaluigi@gmail.com
             </p>
             <SocialLinks />
@@ -22,9 +25,10 @@ export default function Footer() {
           <FooterSection title="Services">
             <div className="space-y-2">
               <FooterLink href="#services">Website Creation</FooterLink>
+              <FooterLink href="#services">Mobile Applications</FooterLink>
+              <FooterLink href="#services">Workflow Automation</FooterLink>
               <FooterLink href="#services">AI Chatbot Agents</FooterLink>
               <FooterLink href="#services">AI Phone Calls</FooterLink>
-              <FooterLink href="#services">AI Workflow Automation</FooterLink>
             </div>
           </FooterSection>
 

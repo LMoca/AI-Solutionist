@@ -13,6 +13,7 @@ const services = [
     title: "Website Creation",
     description: "Custom-built, responsive websites that capture your brand's essence and drive results",
     features: ["Modern, Sleek Design", "Mobile Responsive", "SEO Optimized", "Fast Loading", "Individually Customized"],
+    projects: portfolioItems[0].projects
   },
   {
     icon: <MobileAppAnimation />,
@@ -42,8 +43,8 @@ const services = [
   },
   {
     icon: <WorkflowAnimation />,
-    title: "AI Workflow Automation",
-    description: "AI Automated systems handling business tasks",
+    title: "Workflow Automation",
+    description: "AI + Automated systems handling business tasks",
     features: ["Automated Administrative Tasks", "Concurrent Personalized Email Outreaches", "Streamline Data Entries", "Automate Data Collection to Spreadsheets/Databases", "Automated Scheduled Tasks"],
     projects: portfolioItems[3].projects
   }
