@@ -43,12 +43,6 @@ export const portfolioItems: PortfolioItem[] = [
         imageUrl: "https://static.wixstatic.com/media/e4a203_ca8794669bed4c4ba0939869a8c13646~mv2.png",
         link: "https://joyful-sherbet-5237d6.netlify.app/"
       }
-      /*{
-        title: "Space Explorer",
-        description: "A space exploration agency",
-        imageUrl: "https://static.wixstatic.com/media/e4a203_182b2cd8055e4abd9a654d4201fb5e5f~mv2.png",
-        link: "https://luxury-malabi-cb24d8.netlify.app/"
-      }*/
     ]
   },
   {
@@ -66,13 +60,7 @@ export const portfolioItems: PortfolioItem[] = [
         description: "24/7 chatbot assistant for basic customer FAQ",
         imageUrl: "https://static.wixstatic.com/media/559bd5_803711cd15bf4e5dbc5424a859018e6e~mv2.png",
         link: "https://www.europeanforeignmotorworks.com/"
-      },
-      /*{
-        title: "Physical Needs Bot",
-        description: "24/7 chatbot assistant for basic customer FAQ",
-        imageUrl: "https://whizardapi.com/wp-content/uploads/2022/04/download-2.png",
-        link: "https://creator.voiceflow.com/prototype/674e720b2e9e997326daa67a"
-      }*/
+      }
     ]
   },
   {
@@ -95,6 +83,25 @@ export const portfolioItems: PortfolioItem[] = [
         title: "Papa Johns",
         description: "Voice assistant for carryout orders",
         imageUrl: "https://www.bigclassaction.com/images/lawsuit/16997.png"
+      }
+    ]
+  },
+  {
+    icon: 'MessageSquare',
+    title: "Mobile App Development",
+    description: "Custom mobile applications for iOS and Android",
+    projects: [
+      {
+        title: "Fitness Tracker Pro",
+        description: "Comprehensive fitness tracking and workout planning app",
+        imageUrl: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=500&q=80",
+        link: "#"
+      },
+      {
+        title: "EcoTracker",
+        description: "Sustainable living and carbon footprint tracking app",
+        imageUrl: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=500&q=80",
+        link: "#"
       }
     ]
   }
