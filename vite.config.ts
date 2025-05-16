@@ -15,4 +15,5 @@ export default defineConfig({
       },
     },
   },
+  publicDir: 'assets', // Include assets directory as public files
 });

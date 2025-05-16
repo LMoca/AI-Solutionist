@@ -17,7 +17,7 @@ const testimonials: Testimonial[] = [
     author: "RJ",
     role: "Founder, RJ's Beginner Crypto Services 101",
     projectURL: "https://reliable-brioche-4dced6.netlify.app/",
-    image: "/assets/RJCircleLogo.png"
+    image: "./assets/RJCryptoLogo.jpg"
   },
   {
     content: "My website was outdated and wasn't getting many leads. Luigi completely revamped my website, not only making it visually appealing but highly functional. The biggest game-changer was the AI lead capture agent he integrated within 2 hours. After 3 days, I began seeing an increase in customer inquiries! In a month? 10+ client captures! Now, my website with AI integration works for me 24/7, engaging visitors, answering their questions, and turning them into paying clients. Luigi, my business hasn't seen this level of turnover on a website. Thank you!",
