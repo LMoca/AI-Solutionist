@@ -20,7 +20,7 @@ const testimonials: Testimonial[] = [
     image: "./assets/RJCryptoLogo.jpg"
   },
   {
-    content: "My website was outdated and wasn't getting many leads. Luigi completely revamped my website, not only making it visually appealing but highly functional. The biggest game-changer was the AI lead capture agent he integrated within 2 hours. After 3 days, I began seeing an increase in customer inquiries! In a month? 10+ client captures! Now, my website with AI integration works for me 24/7, engaging visitors, answering their questions, and turning them into paying clients. Luigi, my business hasn't seen this level of turnover on a website. Thank you!",
+    content: "My website was outdated and wasn't getting many leads. Luigi completely revamped my website, not only making it visually appealing but highly functional. The biggest game-changer was the AI lead capture agent he integrated within 2 hours. After 4 months, I began seeing an increase in customer inquiries! 25+ client captures! Now, my website with AI integration works for me 24/7, engaging visitors, answering their questions, and turning them into paying clients. Luigi, my business hasn't seen this level of turnover on a website. Thank you!",
     author: "Giuseppe Moca",
     role: "Founder, European & Foreign Motor Works",
     projectURL: "https://www.europeanforeignmotorworks.com/",

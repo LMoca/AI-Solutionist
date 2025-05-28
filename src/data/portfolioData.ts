@@ -23,25 +23,25 @@ export const portfolioItems: PortfolioItem[] = [
       {
         title: "AI Solutionist",
         description: "Luigi Moca's portfolio with about & provided services",
-        imageUrl: "https://static.wixstatic.com/media/e4a203_378475ee1142410fb3a56ba73d39db72~mv2.png"
+        imageUrl: "/LM Logo Black BG.png"
       },
       {
-        title: "Cumberland Roots Coffee",
+        title: "FitByMi, LLC",
         description: "A warm, friendly, modern coffee site",
-        imageUrl: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&q=80",
-        link: "https://benevolent-bienenstitch-510b71.netlify.app/"
+        imageUrl: "/assets/tempLogoFitByMi.png",
+        link: "https://fitbymi.netlify.app/"
+      },
+      {
+        title: "Mateo Insurance Agency",
+        description: "Jose Mateo's Insurance Agency",
+        imageUrl: "/assets/MateoInsuranceAgencyLogo.png",
+        link: "https://mateoinsurance.com/"
       },
       {
         title: "RJ's Beginner Crypto Services 101",
         description: "A service by RJ to teach newcomers about the crypto space",
-        imageUrl: "https://p16-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/125a6d08d8b3006a3cbd9eaaa498c1c6~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=50795&refresh_token=1b2bdf00693a29ca24251cf4291d1416&x-expires=1737615600&x-signature=a8xfv0jHHo2pFWuhiBEUDmF8tLQ%3D&shp=a5d48078&shcp=81f88b70",
+        imageUrl: "/assets/RJCryptoLogo.jpg",
         link: "https://reliable-brioche-4dced6.netlify.app/"
-      },
-      {
-        title: "Rebecca's Bakery",
-        description: "Local, bakery restaurant",
-        imageUrl: "https://static.wixstatic.com/media/e4a203_ca8794669bed4c4ba0939869a8c13646~mv2.png",
-        link: "https://joyful-sherbet-5237d6.netlify.app/"
       }
     ]
   },
@@ -53,14 +53,20 @@ export const portfolioItems: PortfolioItem[] = [
       {
         title: "AI Solutionist Chatbot",
         description: "24/7 chatbot assistant, made for AI Solutionist",
-        imageUrl: "https://static.wixstatic.com/media/e4a203_378475ee1142410fb3a56ba73d39db72~mv2.png",
+        imageUrl: "/LM Logo Black BG.png",
       },
       {
         title: "Giuseppe FAQ Bot",
-        description: "24/7 chatbot assistant for basic customer FAQ",
+        description: "24/7 chatbot assistant for basic customer FAQ & sending emails",
         imageUrl: "https://static.wixstatic.com/media/559bd5_803711cd15bf4e5dbc5424a859018e6e~mv2.png",
         link: "https://www.europeanforeignmotorworks.com/"
-      }
+      },
+      {
+        title: "FitByMi Bot",
+        description: "Chatbot assistant for FAQ, Subscription, & appt. scheduling",
+        imageUrl: "/assets/tempLogoFitByMi.png",
+        link: "https://fitbymi.netlify.app/"
+      },
     ]
   },
   {
@@ -92,8 +98,8 @@ export const portfolioItems: PortfolioItem[] = [
     description: "Custom mobile applications for iOS and Android",
     projects: [
       {
-        title: "Fitness Tracker Pro",
-        description: "Comprehensive fitness tracking and workout planning app",
+        title: "Powell Home Mortgage",
+        description: "Powell Home Mortgage's exclusive app",
         imageUrl: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=500&q=80",
         link: "#"
       },

@@ -2,10 +2,9 @@ import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 
 const websites = [
-  "https://static.wixstatic.com/media/e4a203_2a545f22ca4142d1b3cf04e0ceda79d9~mv2.png",
-  "https://static.wixstatic.com/media/e4a203_c0e77d6029bd48d791018d576063bdbf~mv2.png",
-  "https://static.wixstatic.com/media/e4a203_662e478746e14e77a6f9cf02ad8164dd~mv2.png",
-  "https://static.wixstatic.com/media/e4a203_ca8794669bed4c4ba0939869a8c13646~mv2.png"
+  "/assets/aiSolutionistCurrentWebsite.png",
+  "/assets/fitByMiWebsite.png",
+  "/assets/mateoInsuranceWebsite.png"
 ];
 
 export default function WebsiteScroll() {
