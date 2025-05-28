@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://lmaisolutionist.com/sitemap.xml
+
+# Allow all web crawlers to access all content
+# This file allows search engines to crawl and index all pages on the site
