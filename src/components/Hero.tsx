@@ -35,7 +35,7 @@ export default function Hero() {
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
           }`}
         >
-          Developing tailored AI automation solutions for your business
+          AI Automation Systems + Solutions for your business
         </p>
       </div>
     </section>
