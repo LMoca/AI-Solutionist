@@ -99,16 +99,16 @@ export const portfolioItems: PortfolioItem[] = [
     projects: [
       {
         title: "Powell Home Mortgage",
-        description: "Powell Home Mortgage's exclusive app",
-        imageUrl: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=500&q=80",
-        link: "#"
-      },
+        description: "Powell Home Mortgage's exclusive app linking mortgage realtors & brokers",
+        imageUrl: "/assets/powellHomeMtgApp.png",
+        link: "https://powellhomemtg.netlify.app/"
+      }/*,
       {
         title: "EcoTracker",
         description: "Sustainable living and carbon footprint tracking app",
         imageUrl: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=500&q=80",
         link: "#"
-      }
+      }*/
     ]
   }
 ];
