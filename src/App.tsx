@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/data-deletion-request" element={<DataDeletionRequest />} />
+        <Route path="/datadeletionrequest" element={<DataDeletionRequest />} />
       </Routes>
     </Router>
   );

@@ -58,7 +58,7 @@ export default function Footer() {
           
           <div className="flex justify-center">
             <Link
-              to="/data-deletion-request"
+              to="/datadeletionrequest"
               className="inline-flex items-center gap-2 text-gray-400 hover:text-cyan-400 transition-colors duration-200 text-xs"
             >
               <Trash2 size={14} />
