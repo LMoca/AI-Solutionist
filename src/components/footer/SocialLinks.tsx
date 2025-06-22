@@ -16,11 +16,6 @@ const socialLinks = [
     label: "Schedule a Call",
     href: "https://calendly.com/mocaluigi/30min",
   },
-  {
-    icon: <Mail size={24} />,
-    label: "Email",
-    href: "mailto:mocaluigi@gmail.com",
-  },
 ];
 
 export function SocialLinks() {

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import Section from '../Section';
+import { HelpCircle } from 'lucide-react';
 import FAQItem from './FAQItem';
-import { staggerChildrenVariant } from '../../utils/animations';
+import { staggerChildrenVariant, fadeInUpVariant } from '../../utils/animations';
 
 const faqs = [
   {
@@ -28,20 +28,38 @@ const faqs = [
 
 export default function FAQSection() {
   return (
-    <Section id="faq" title="FAQ">
-      <motion.div 
-        variants={staggerChildrenVariant}
-        className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto"
-      >
-        {faqs.map((faq, index) => (
-          <FAQItem 
-            key={index}
-            question={faq.question}
-            answer={faq.answer}
-            index={index}
-          />
-        ))}
-      </motion.div>
-    </Section>
+    <section id="faq" className="py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeInUpVariant}
+          className="text-center mb-12"
+        >
+          <h2 className="inline-flex items-center gap-4 text-6xl md:text-6xl font-bold bg-clip-text text-[#00ffff] drop-shadow-[0_0_10px_rgba(53,71,255,0.8)] [text-shadow:_0_0_5px_rgb(53_71_255_/_60%)]">
+            <HelpCircle className="w-12 h-12 text-cyan-400" />
+            FAQ
+          </h2>
+        </motion.div>
+        
+        <motion.div 
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={staggerChildrenVariant}
+          className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto"
+        >
+          {faqs.map((faq, index) => (
+            <FAQItem 
+              key={index}
+              question={faq.question}
+              answer={faq.answer}
+              index={index}
+            />
+          ))}
+        </motion.div>
+      </div>
+    </section>
   );
 }

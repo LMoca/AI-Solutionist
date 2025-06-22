@@ -1,6 +1,8 @@
 import { FooterSection } from './FooterSection';
 import { FooterLink } from './FooterLink';
 import { SocialLinks } from './SocialLinks';
+import { Phone, User, Mail, Trash2, HelpCircle } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -10,16 +12,23 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           <FooterSection title="AI Solutionist">
-            <p className="text-cyan-200">
-              Luigi Moca
-            </p>
-            <p className="text-cyan-200">
-              (317) 712-0452
-            </p>
-            <p className="text-cyan-200">
-              mocaluigi@gmail.com
-            </p>
-            <SocialLinks />
+            <div className="space-y-3">
+              <div className="flex items-center gap-3">
+                <User className="w-4 h-4 text-cyan-400" />
+                <p className="text-cyan-200">Luigi Moca</p>
+              </div>
+              <div className="flex items-center gap-3">
+                <Phone className="w-4 h-4 text-cyan-400" />
+                <p className="text-cyan-200">(317) 712-0452</p>
+              </div>
+              <div className="flex items-center gap-3">
+                <Mail className="w-4 h-4 text-cyan-400" />
+                <p className="text-cyan-200">lmaisolutionist@gmail.com</p>
+              </div>
+            </div>
+            <div className="mt-4">
+              <SocialLinks />
+            </div>
           </FooterSection>
 
           <FooterSection title="Services">
@@ -34,15 +43,28 @@ export default function Footer() {
 
           <FooterSection title="Resources">
             <div className="space-y-2">
-              <FooterLink href="#faq">FAQ</FooterLink>
+              <div className="flex items-center gap-2">
+                <HelpCircle className="w-4 h-4 text-cyan-400" />
+                <FooterLink href="#faq">FAQ</FooterLink>
+              </div>
             </div>
           </FooterSection>
         </div>
 
-        <div className="pt-8 border-t border-cyan-900/20 text-center">
+        <div className="pt-8 border-t border-cyan-900/20 text-center space-y-4">
           <p className="text-cyan-200 text-sm">
             © {currentYear} AI Solutionist. All rights reserved.
           </p>
+          
+          <div className="flex justify-center">
+            <Link
+              to="/data-deletion-request"
+              className="inline-flex items-center gap-2 text-gray-400 hover:text-cyan-400 transition-colors duration-200 text-xs"
+            >
+              <Trash2 size={14} />
+              Data Deletion Request
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

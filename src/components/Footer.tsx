@@ -27,7 +27,7 @@ export default function Footer() {
           </div>
 
           <div className="text-gray-400 text-sm text-center mt-8">
-            <p>mocaluigi@gmail.com</p>
+            <p>lmaisolutionist@gmail.com</p>
             <p className="mt-2">© {currentYear} AI Solutionist. All rights reserved.</p>
           </div>
         </div>
