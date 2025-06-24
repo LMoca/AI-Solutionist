@@ -58,7 +58,7 @@ export const portfolioItems: PortfolioItem[] = [
       {
         title: "Giuseppe FAQ Bot",
         description: "24/7 chatbot assistant for basic customer FAQ & sending emails",
-        imageUrl: "https://static.wixstatic.com/media/559bd5_803711cd15bf4e5dbc5424a859018e6e~mv2.png",
+        imageUrl: "/assets//EFMW Logo.png",
         link: "https://www.europeanforeignmotorworks.com/"
       },
       {

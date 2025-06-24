@@ -24,7 +24,7 @@ const testimonials: Testimonial[] = [
     author: "Giuseppe Moca",
     role: "Founder, European & Foreign Motor Works",
     projectURL: "https://www.europeanforeignmotorworks.com/",
-    image: "https://static.wixstatic.com/media/559bd5_803711cd15bf4e5dbc5424a859018e6e~mv2.png"
+    image: "./assets//EFMW Logo.png"
   },
   {
     content: "Luigi created the most beautiful, functional website for my fitness business! My NEW website is officially LIVE and I've poured my heart into this project. Now my clients can learn about my story, browse my 1:1 coaching & fitness services, schedule consultations, subscribe to my Fit Tips newsletter, and download FREE workout guides. Luigi delivered everything I envisioned and more - this is now the go-to hub for everything Fit by Mi. The design is stunning and perfectly represents my brand!",
