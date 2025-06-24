@@ -100,7 +100,7 @@ export const portfolioItems: PortfolioItem[] = [
       {
         title: "Powell Home Mortgage",
         description: "Powell Home Mortgage's exclusive app linking mortgage realtors & brokers",
-        imageUrl: "/assets/powellHomeMtgApp.png",
+        imageUrl: "/assets/LoanSimple.png",
         link: "https://powellhomemtg.netlify.app/"
       }/*,
       {
