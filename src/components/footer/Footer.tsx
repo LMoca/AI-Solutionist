@@ -55,16 +55,6 @@ export default function Footer() {
           <p className="text-cyan-200 text-sm">
             © {currentYear} AI Solutionist. All rights reserved.
           </p>
-          
-          <div className="flex justify-center">
-            <Link
-              to="/datadeletionrequest"
-              className="inline-flex items-center gap-2 text-gray-400 hover:text-cyan-400 transition-colors duration-200 text-xs"
-            >
-              <Trash2 size={14} />
-              Data Deletion Request
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
