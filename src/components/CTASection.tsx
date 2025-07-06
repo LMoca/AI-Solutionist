@@ -53,7 +53,7 @@ export default function CTASection() {
             <div 
               className="calendly-inline-widget" 
               data-url="https://calendly.com/mocaluigi/30min"
-              style={{ minWidth: '320px', height: '650px' }}
+              style={{ width: '100%', height: '650px' }}
             />
           </motion.div>
         </div>

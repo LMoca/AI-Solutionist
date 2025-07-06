@@ -4,7 +4,7 @@ import { fadeInUpVariant } from '../utils/animations';
 
 const processSteps = [
   {
-    icon: <Search className="w-12 h-12 text-cyan-400" />,
+    icon: <Search className="w-8 h-8 text-cyan-400" />,
     title: "Assess",
     description: "We thoroughly discuss & analyze your business operations & workflow",
     points: [
@@ -15,7 +15,7 @@ const processSteps = [
     ]
   },
   {
-    icon: <Wrench className="w-12 h-12 text-cyan-400" />,
+    icon: <Wrench className="w-8 h-8 text-cyan-400" />,
     title: "Implementation",
     description: "We develop & deploy customized AI solutions tailored to your objectives.",
     points: [
@@ -27,7 +27,7 @@ const processSteps = [
     ]
   },
   {
-    icon: <RefreshCw className="w-12 h-12 text-cyan-400" />,
+    icon: <RefreshCw className="w-8 h-8 text-cyan-400" />,
     title: "Maintain + Upgrade",
     description: "We provide ongoing support & continuous improvements",
     points: [
@@ -87,8 +87,10 @@ export default function Process() {
                     <div className="absolute inset-0 bg-cyan-400 rounded-lg blur-xl opacity-10 group-hover:opacity-20 transition-opacity duration-300" />
 
                     <div className="relative z-10">
-                      <div className="mb-4">{step.icon}</div>
-                      <h3 className="text-2xl font-bold text-cyan-400 mb-3">{step.title}</h3>
+                      <div className="flex items-center gap-3 mb-4">
+                        {step.icon}
+                        <h3 className="text-2xl font-bold text-cyan-400">{step.title}</h3>
+                      </div>
                       <p className="text-cyan-200 mb-6">{step.description}</p>
                       
                       <ul className="space-y-2">

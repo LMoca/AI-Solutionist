@@ -66,7 +66,7 @@ export default function BookingModal({ isOpen, onClose }: BookingModalProps) {
               <div 
                 className="calendly-inline-widget" 
                 data-url="https://calendly.com/mocaluigi/30min"
-                style={{ minWidth: '320px', height: '600px' }}
+                style={{ width: '100%', height: '600px' }}
               />
             </div>
           </motion.div>

@@ -33,20 +33,20 @@ export default function Hero() {
             />
           </div>
           <h1 
-            className={`text-4xl md:text-6xl lg:text-7xl font-bold mb-6 transition-all duration-1000 ${
+            className={`text-2xl md:text-4xl lg:text-5xl font-bold mb-6 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             }`}
           >
             <span className="text-[#00ffff] drop-shadow-[0_0_10px_rgba(53,7,255,0.8)] [text-shadow:_0_0_20px_rgb(0_255_255_/_60%)]">
-              AI Solutionist
+              Focus on Your Business Purpose
             </span>
           </h1>
           <p 
-            className={`text-cyan-400 text-xl md:text-1xl mb-12 transition-all duration-1000 delay-300 ${
+            className={`text-cyan-400 text-xl md:text-1xl mb-12 ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
             }`}
           >
-            Smarter Systems, Faster Growth – Get Started
+            We Build Custom AI Systems That Automate Your Business Challenges
           </p>
           
           {/* Action Buttons */}
@@ -61,14 +61,6 @@ export default function Hero() {
             >
               <Calendar size={20} className="group-hover:scale-110 transition-transform duration-200" />
               <span>Book Consultation</span>
-            </button>
-            
-            <button
-              onClick={scrollToServices}
-              className="group relative bg-transparent border-2 border-cyan-400 text-cyan-400 font-semibold py-4 px-8 rounded-lg hover:bg-cyan-400 hover:text-black hover:scale-105 transition-all duration-300 flex items-center gap-3 w-full sm:w-auto sm:min-w-[200px] justify-center"
-            >
-              <span>View Services</span>
-              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform duration-200" />
             </button>
           </div>
         </div>

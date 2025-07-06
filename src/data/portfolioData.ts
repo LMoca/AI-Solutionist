@@ -27,7 +27,7 @@ export const portfolioItems: PortfolioItem[] = [
       },
       {
         title: "FitByMi, LLC",
-        description: "A warm, friendly, modern coffee site",
+        description: "Personal fitness training & wellness coaching platform",
         imageUrl: "/assets/tempLogoFitByMi.png",
         link: "https://fitbymi.netlify.app/"
       },
@@ -67,28 +67,30 @@ export const portfolioItems: PortfolioItem[] = [
         imageUrl: "/assets/tempLogoFitByMi.png",
         link: "https://fitbymi.netlify.app/"
       },
+      {
+        title: "A.E.D. Metal Products",
+        description: "AI chatbot for custom metal fabrication inquiries & quotes",
+        imageUrl: "/assets/aed-metal-logo.png",
+        link: "https://www.aedmetals.com/"
+      },
     ]
-  },
-  {
-    icon: 'MessageSquare',
-    title: "Business Workflow Automation",
-    description: "AI-powered systems to automate your daily tasks",
-    projects: []
   },
   {
     icon: 'MessageSquare',
     title: "AI Phone Calls",
     description: "Intelligent voice assistants handling your business calls 24/7",
+    projects: []
+  },
+  {
+    icon: 'MessageSquare',
+    title: "Business Workflow Automation", 
+    description: "AI-powered systems to automate your daily tasks",
     projects: [
       {
-        title: "Buffalo Wild Wings",
-        description: "AI phone system for handling carryout orders & reservations",
-        imageUrl: "https://th.bing.com/th/id/R.854055676e5ccf3713e636b8974f783c?rik=d9r8Jhbfn8vpig&riu=http%3a%2f%2f1.bp.blogspot.com%2f-_ljGwO_InUo%2fUzwe1DM2xvI%2fAAAAAAAAisg%2fJaWh_L72iHw%2fs1600%2fBuffalo-Wild-Wings-logo.png&ehk=ELM2jFuwCApsNr2Shth1OvK%2bRXLS4bN9zAsdAwyLO4I%3d&risl=&pid=ImgRaw&r=0"
-      },
-      {
-        title: "Papa Johns",
-        description: "Voice assistant for carryout orders",
-        imageUrl: "https://www.bigclassaction.com/images/lawsuit/16997.png"
+        title: "A.E.D. Metal Products",
+        description: "Automated social media posting & customer engagement",
+        imageUrl: "/assets/aed-metal-logo.png",
+        link: "https://www.facebook.com/AEDMotorsport/"
       }
     ]
   },

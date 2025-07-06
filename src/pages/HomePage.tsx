@@ -1,5 +1,6 @@
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import ProblemSolutionSection from '../components/ProblemSolutionSection';
 import Services from '../components/Services';
 import Process from '../components/Process';
 import FAQSection from '../components/FAQ/FAQSection';
@@ -19,6 +20,7 @@ export default function HomePage() {
         <Navbar />
         <main>
           <Hero />
+          <ProblemSolutionSection />
           <Services />
           <Process />
           <Testimonials />
