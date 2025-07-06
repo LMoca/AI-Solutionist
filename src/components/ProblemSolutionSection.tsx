@@ -175,7 +175,7 @@ export default function ProblemSolutionSection() {
           variants={fadeInUpVariant}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-[#00ffff] drop-shadow-[0_0_10px_rgba(53,71,255,0.8)] [text-shadow:_0_0_5px_rgb(53_71_255_/_60%)]">
+          <h2 className="text-4xl md:text-4xl font-bold mb-4 bg-clip-text text-[#00ffff] drop-shadow-[0_0_10px_rgba(53,71,255,0.8)] [text-shadow:_0_0_5px_rgb(53_71_255_/_60%)]">
             Business Owner or Business Operator?
           </h2>
           <p className="pt-4 text-cyan-400 text-xl">

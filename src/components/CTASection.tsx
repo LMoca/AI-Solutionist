@@ -19,11 +19,11 @@ export default function CTASection() {
   }, []);
 
   return (
-    <Section id="contact" title="Ready to Upgrade Your Business?">
+    <Section id="contact" title="Stop Wasting Time. Let's Automate">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <p className="text-cyan-400 text-xl md:text-2xl">
-            Schedule a meeting now to solve your business challenges together!
+            Schedule a meeting to solve your business challenges together!
           </p>
         </div>
         

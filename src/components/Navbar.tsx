@@ -24,8 +24,8 @@ export default function Navbar() {
               <DesktopNavLink href="#services">Services</DesktopNavLink>
               <DesktopNavLink href="#process">Process</DesktopNavLink>
               <DesktopNavLink href="#testimonials">Testimonials</DesktopNavLink>
-              <DesktopNavLink href="#faq">FAQ</DesktopNavLink>
               <DesktopNavLink href="#contact">Contact</DesktopNavLink>
+              <DesktopNavLink href="#faq">FAQ</DesktopNavLink>
             </div>
           </div>
 

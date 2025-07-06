@@ -54,8 +54,8 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
               <NavLink href="#services" onClick={handleNavClick}>Services</NavLink>
               <NavLink href="#process" onClick={handleNavClick}>Process</NavLink>
               <NavLink href="#testimonials" onClick={handleNavClick}>Testimonials</NavLink>
-              <NavLink href="#faq" onClick={handleNavClick}>FAQ</NavLink>
               <NavLink href="#contact" onClick={handleNavClick}>Contact</NavLink>
+              <NavLink href="#faq" onClick={handleNavClick}>FAQ</NavLink>
             </div>
           </motion.div>
         </motion.div>

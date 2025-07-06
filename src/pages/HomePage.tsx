@@ -24,8 +24,8 @@ export default function HomePage() {
           <Services />
           <Process />
           <Testimonials />
-          <FAQSection />
           <CTASection />
+          <FAQSection />
         </main>
         <Footer />
       </div>

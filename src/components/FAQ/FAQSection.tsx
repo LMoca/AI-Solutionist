@@ -21,6 +21,10 @@ const faqs = [
     answer: "Absolutely! Our solutions are designed to seamlessly integrate with your existing infrastructure and can be customized to meet your specific requirements."
   },
   {
+    question: "How much does it cost to implement?",
+    answer: "The cost of implementation depends on several factors including the complexity of your project scope, the number of systems that need integration, the level of customization required, and the specific AI features you want."
+  },
+  {
     question: "What industries do you serve?",
     answer: "We serve a wide range of industries including e-commerce, healthcare, finance, real estate, education, and more. Our solutions are adaptable to any business context."
   }
@@ -37,7 +41,7 @@ export default function FAQSection() {
           variants={fadeInUpVariant}
           className="text-center mb-12"
         >
-          <h2 className="inline-flex items-center gap-4 text-6xl md:text-6xl font-bold bg-clip-text text-[#00ffff] drop-shadow-[0_0_10px_rgba(53,71,255,0.8)] [text-shadow:_0_0_5px_rgb(53_71_255_/_60%)]">
+          <h2 className="inline-flex items-center gap-4 text-4xl md:text-4xl font-bold bg-clip-text text-[#00ffff] drop-shadow-[0_0_10px_rgba(53,71,255,0.8)] [text-shadow:_0_0_5px_rgb(53_71_255_/_60%)]">
             <HelpCircle className="w-12 h-12 text-cyan-400" />
             FAQ
           </h2>

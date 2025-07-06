@@ -50,7 +50,7 @@ export default function Process() {
           variants={fadeInUpVariant}
           className="text-center mb-12"
         >
-          <h2 className="inline-flex items-center gap-4 text-6xl md:text-6xl font-bold bg-clip-text text-[#00ffff] drop-shadow-[0_0_10px_rgba(53,71,255,0.8)] [text-shadow:_0_0_5px_rgb(53_71_255_/_60%)]">
+          <h2 className="inline-flex items-center gap-4 text-4xl md:text-4xl font-bold bg-clip-text text-[#00ffff] drop-shadow-[0_0_10px_rgba(53,71,255,0.8)] [text-shadow:_0_0_5px_rgb(53_71_255_/_60%)]">
             <Workflow className="w-12 h-12 text-cyan-400" />
             Our Process
           </h2>
