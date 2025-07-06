@@ -295,7 +295,6 @@ export default function ProblemSolutionSection() {
                           transition={{ delay: index * 0.05 }}
                           className="flex items-start text-red-200"
                         >
-                          <span className="w-1.5 h-1.5 lg:w-2 lg:h-2 bg-red-400 rounded-full mr-2 lg:mr-3 mt-1.5 lg:mt-2 flex-shrink-0" />
                           <span className="text-xs lg:text-sm leading-relaxed">{problem}</span>
                         </motion.li>
                       ))}
@@ -342,7 +341,6 @@ export default function ProblemSolutionSection() {
                           transition={{ delay: index * 0.05 }}
                           className="flex items-start text-green-200"
                         >
-                          <span className="w-1.5 h-1.5 lg:w-2 lg:h-2 bg-green-400 rounded-full mr-2 lg:mr-3 mt-1.5 lg:mt-2 flex-shrink-0" />
                           <span className="text-xs lg:text-sm leading-relaxed">{solution}</span>
                         </motion.li>
                       ))}

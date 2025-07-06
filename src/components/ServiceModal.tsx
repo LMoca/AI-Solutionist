@@ -115,7 +115,6 @@ export default function ServiceModal({
 
                   <div className="relative z-10">
                     <h4 className="text-lg font-bold text-cyan-400 mb-4 flex items-center gap-2">
-                      <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
                       Key Benefits
                     </h4>
                     <div className="flex flex-wrap gap-x-2 gap-y-1">
@@ -127,7 +126,6 @@ export default function ServiceModal({
                           transition={{ delay: index * 0.05 }}
                           className="flex items-start gap-1.5 py-0.5 w-[calc(50%-4px)]"
                         >
-                          <div className="w-1 h-1 bg-cyan-400 rounded-full flex-shrink-0 mt-1.5"></div>
                           <span className="text-cyan-200 text-xs leading-tight">{feature}</span>
                         </motion.div>
                       ))}
@@ -152,7 +150,6 @@ export default function ServiceModal({
 
                     <div className="relative z-10">
                       <h4 className="text-lg font-bold text-cyan-400 mb-4 flex items-center gap-2">
-                        <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
                         Client Projects
                       </h4>
                       

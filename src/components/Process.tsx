@@ -96,7 +96,6 @@ export default function Process() {
                       <ul className="space-y-2">
                         {step.points.map((point, pointIndex) => (
                           <li key={pointIndex} className="flex items-center text-cyan-200">
-                            <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full mr-2" />
                             {point}
                           </li>
                         ))}

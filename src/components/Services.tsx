@@ -284,7 +284,6 @@ export default function Services() {
 
                       <div className="relative z-10">
                         <h4 className="text-xl font-bold text-cyan-400 mb-6 flex items-center gap-3">
-                          <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
                           Key Benefits
                         </h4>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
@@ -296,7 +295,6 @@ export default function Services() {
                               transition={{ delay: index * 0.1 }}
                               className="flex items-center gap-2 py-1"
                             >
-                              <div className="w-1.5 h-1.5 bg-cyan-400 rounded-full flex-shrink-0"></div>
                               <span className="text-cyan-200 text-xs">{feature}</span>
                             </motion.div>
                           ))}
@@ -321,7 +319,6 @@ export default function Services() {
 
                         <div className="relative z-10">
                           <h4 className="text-xl font-bold text-cyan-400 mb-6 flex items-center gap-3">
-                            <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
                             Client Projects
                           </h4>
                           
