@@ -42,6 +42,12 @@ export const portfolioItems: PortfolioItem[] = [
         description: "A service by RJ to teach newcomers about the crypto space",
         imageUrl: "/assets/RJCryptoLogo.jpg",
         link: "https://reliable-brioche-4dced6.netlify.app/"
+      },
+      {
+        title: "A Plus Services Corp",
+        description: "Professional accounting firm specializing in individual & business tax filing services",
+        imageUrl: "/assets/APlusServicesLogo.jpg",
+        link: "https://aplusservicescorp.net/"
       }
     ]
   },
