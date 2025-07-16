@@ -183,16 +183,21 @@ export default function ServiceModal({
                                 <p className="text-cyan-200 text-sm mb-3 leading-relaxed">
                                   {project.description}
                                 </p>
-                                {project.link && (
-                                  <a
-                                    href={project.link}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 text-sm font-medium transition-colors bg-cyan-400/10 hover:bg-cyan-400/20 px-3 py-1.5 rounded-md"
-                                  >
-                                    View Project
-                                    <ExternalLink size={14} />
-                                  </a>
+                                {project.links && project.links.length > 0 && (
+                                  <div className="flex flex-wrap gap-2">
+                                    {project.links.map((link, linkIndex) => (
+                                      <a
+                                        key={linkIndex}
+                                        href={link.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 text-sm font-medium transition-colors bg-cyan-400/10 hover:bg-cyan-400/20 px-3 py-1.5 rounded-md"
+                                      >
+                                        {link.label}
+                                        <ExternalLink size={14} />
+                                      </a>
+                                    ))}
+                                  </div>
                                 )}
                               </div>
                             </div>

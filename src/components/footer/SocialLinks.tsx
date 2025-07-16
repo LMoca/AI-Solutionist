@@ -1,15 +1,15 @@
 import { Instagram, Linkedin, Mail, Calendar } from 'lucide-react';
 
 const socialLinks = [
-  /*{
-    icon: <Instagram size={24} />,
-    label: "Instagram",
-    href: "https://instagram.com",
-  },*/
   {
     icon: <Linkedin size={24} />,
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/luigi-moca-90552276",
+  },
+  {
+    icon: <Instagram size={24} />,
+    label: "Instagram",
+    href: "https://www.instagram.com/lmai.solutionist/",
   },
   {
     icon: <Calendar size={24} />,

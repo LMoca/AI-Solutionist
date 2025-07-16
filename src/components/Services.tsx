@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Briefcase, ExternalLink, Globe, Smartphone, Phone, MessageSquare, Workflow, ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { portfolioItems } from '../data/portfolioData';
+import { portfolioData } from '../data/portfolioData';
 import { fadeInUpVariant } from '../utils/animations';
 import ServiceModal from './ServiceModal';
 
@@ -25,7 +25,7 @@ const services = [
       "E-commerce Capabilities",
       "Contact Forms & CTAs"
     ],
-    projects: portfolioItems[0].projects
+    projects: portfolioData[0].projects
   },
   {
     id: 'mobile-apps',
@@ -46,7 +46,7 @@ const services = [
       "Analytics Dashboard",
       "App Store Optimization"
     ],
-    projects: portfolioItems[4].projects
+    projects: portfolioData[4].projects
   },
   {
     id: 'ai-phone',
@@ -67,7 +67,7 @@ const services = [
       "Sentiment Analysis",
       "Call Transfer to Humans"
     ],
-    projects: portfolioItems[2].projects
+    projects: portfolioData[2].projects
   },
   {
     id: 'chatbots',
@@ -88,7 +88,7 @@ const services = [
       "Website & Social Integration",
       "Performance Analytics"
     ],
-    projects: portfolioItems[1].projects
+    projects: portfolioData[1].projects
   },
   {
     id: 'automation',
@@ -109,7 +109,7 @@ const services = [
       "Database Management",
       "Integration with Existing Tools"
     ],
-    projects: portfolioItems[3].projects
+    projects: portfolioData[3].projects
   }
 ];
 
@@ -360,16 +360,21 @@ export default function Services() {
                                         <p className="text-cyan-200 text-sm mb-3 leading-relaxed">
                                           {project.description}
                                         </p>
-                                        {project.link && (
-                                          <a
-                                            href={project.link}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 text-sm font-medium transition-colors bg-cyan-400/10 hover:bg-cyan-400/20 px-3 py-1.5 rounded-md"
-                                          >
-                                            View Project
-                                            <ExternalLink size={14} />
-                                          </a>
+                                        {project.links && project.links.length > 0 && (
+                                          <div className="flex flex-wrap gap-2">
+                                            {project.links.map((link, linkIndex) => (
+                                              <a
+                                                key={linkIndex}
+                                                href={link.url}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 text-sm font-medium transition-colors bg-cyan-400/10 hover:bg-cyan-400/20 px-3 py-1.5 rounded-md"
+                                              >
+                                                {link.label}
+                                                <ExternalLink size={14} />
+                                              </a>
+                                            ))}
+                                          </div>
                                         )}
                                       </div>
                                     </div>
