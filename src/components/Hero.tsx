@@ -38,7 +38,7 @@ export default function Hero() {
             }`}
           >
             <span className="text-[#00ffff] drop-shadow-[0_0_10px_rgba(53,7,255,0.8)] [text-shadow:_0_0_20px_rgb(0_255_255_/_60%)]">
-              Focus on Your Business Purpose
+              Focus on Your Business
             </span>
           </h1>
           <p 
